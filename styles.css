@@ -1,0 +1,44 @@
+:root {
+    --first: #e7eaf6;
+    --second: #a2a8d3;
+    --third: #38598b;
+    --fourth: #113f67; 
+}
+	
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.project-container {
+    display: flex;
+}
+
+.navigation {
+    background-color: var(--fourth);
+    height: 100vh;
+    width: 20vw;
+}
+
+header {
+    background-color: var(--third);
+    height: 20vh;
+    width: 80vw;
+}
+
+.main {
+    background-color: var(--second);
+    display: flex;
+}
+
+.main .grid{
+    background-color: aqua;
+    width: 60vw;
+    height: 80vh;
+}
+
+.main .side{
+    background-color: rgb(144, 145, 145);
+    width: 20vw;
+    height: 80vh;
+}
